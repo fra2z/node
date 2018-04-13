@@ -1,0 +1,14 @@
+<html>
+<body>
+  <h1>New Project</h1>
+  <script>
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET","/api/photo/list");
+  xhr.addEventListener("load", function(e){
+    var photolist = JSON.parse(xhr.responseText);
+    console.log(photolist);
+  });
+  xhr.send();
+  </script>
+</body>
+</html>

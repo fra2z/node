@@ -1,0 +1,23 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "nodejs_program_0412",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yority/node.git"
+  },
+  "author": "ikeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yority/node/issues"
+  },
+  "homepage": "https://github.com/yority/node#readme",
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3"
+  }
+}
